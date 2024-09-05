@@ -68,7 +68,7 @@ sudo chmod 0666 /var/www/osticket/upload/include/ost-config.php
 - _Create a new Apache configuration file for osTicket:_
 
 ```bash
-sudo nano /etc/apache2/sites-available/osticket.conf
+sudo vim /etc/apache2/sites-available/osticket.conf
 ```
 - _Add the following configuration:_
 
